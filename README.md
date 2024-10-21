@@ -90,3 +90,77 @@ This project is for personal study and under development, please click 'watch' o
 - 信息量：信息熵（EN）、交叉熵（CE）、互信息（MI）
 
 - 视觉感知：融合性能（Qabf）、融合伪影（Nabf）、融合损失（Labf）、结构相似度（SSIM）、多尺度结构相似度（MS-SSIM）、融合视觉信息保真度（VIFF）
+
+## 5 文件夹说明
+
+```
+
+.
+|-- Multi-Modal-Image-Fusion
+|   |-- README.md
+|   |-- common.py
+|   |-- core
+|   |   |-- block.py
+|   |   |-- fusion.py
+|   |   |-- loss.py
+|   |   |-- metric.py
+|   |   `-- model.py
+|   |-- data
+|   |   |-- dataset.py
+|   |   |-- patches.py
+|   |   |-- samples
+|   |   |   |-- infrared
+|   |   |   |   `-- test
+|   |   |   |       |-- ir
+|   |   |   |       |   |-- 00537D.png
+|   |   |   |       |   |-- 00556D.png
+|   |   |   |       `-- vis
+|   |   |   |           |-- 00537D.png
+|   |   |   |           `-- 36.png
+|   |   |   `-- polar
+|   |   |       `-- test
+|   |   |           |-- po
+|   |   |           |   |-- 1.jpg
+|   |   |           |   |-- 2.jpg
+|   |   |           |   |-- 3.jpg
+|   |   |           |   |-- 4.jpg
+|   |   |           |   `-- 5.jpg
+|   |   |           `-- vis
+|   |   |               |-- 1.jpg
+|   |   |               |-- 2.jpg
+|   |   |               |-- 3.jpg
+|   |   |               |-- 4.jpg
+|   |   |               `-- 5.jpg
+|   |   `-- transform.py
+|   |-- eval.py
+|   |-- requirements.txt
+|   |-- test.py
+|   `-- train.py
+|-- checkpoints
+|   |-- 2024-10-21_10-57
+|   |   `-- train.log
+|   |-- 2024-10-21_11-06
+|   |   |-- events.out.tfevents.1729480004.autodl-container-bc584abc13-b43e5644.1544.0
+|   |   |-- train
+|   |   |-- train.log
+|   |   `-- valid
+|   `-- 2024-10-21_11-08
+|       |-- events.out.tfevents.1729480091.autodl-container-bc584abc13-b43e5644.1571.0
+|       |-- train
+|       |-- train.log
+|       `-- valid
+`-- datasets
+    `-- roadscene
+
+
+
+
+
+
+
+
+```
+
+
+
+
