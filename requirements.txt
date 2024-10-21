@@ -6,3 +6,4 @@ opencv-python
 openpyxl
 natsort
 thop
+patchify
